@@ -1,0 +1,41 @@
+.button-panel {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 20px;
+}
+.button {
+  background:
+    radial-gradient(circle, rgba(0, 0, 0, 0.171) 2px, transparent 1px),
+    linear-gradient(180deg, #ffffff, #ffffffd5);
+  background-size: 8px 8px, 100%;
+  width: 220px;
+  height: 80px;
+  outline: 2px dashed rgb(255, 196, 0);
+  outline-offset: 4px;
+  display: flex;
+  flex-direction: row;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 20px;
+  cursor: pointer;
+  gap: 12px;
+  box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.11);
+}
+.button-image{
+  width: 64px;
+  height: 64px;
+  border-radius: 8px;
+}
+.button-body{
+  color: rgb(0, 0, 0);
+  align-self: center;
+  font-size: 0.7rem;
+  margin-bottom: 8px;
+}
+.button:hover {
+  transform: scale(1.05);
+  box-shadow: 6px 6px 0px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s, box-shadow 0.3s;
+}

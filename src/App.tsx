@@ -1,0 +1,18 @@
+import React from "react"
+import "/src/css/globals.css"
+import "/src/css/technologies.css"
+import "/src/css/button.css"
+import "/src/css/card.css"
+import './App.css'
+import MainPage from "./pages/main-page"
+function App() {
+  return (
+    <main className="App">
+      <div>
+        <MainPage />
+      </div>
+    </main>
+  )
+}
+
+export default App
