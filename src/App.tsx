@@ -3,6 +3,7 @@ import "/src/css/globals.css"
 import "/src/css/technologies.css"
 import "/src/css/button.css"
 import "/src/css/card.css"
+import "/src/css/profile.css"
 import './App.css'
 import MainPage from "./pages/main-page"
 function App() {

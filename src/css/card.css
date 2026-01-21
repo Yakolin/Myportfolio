@@ -11,6 +11,7 @@
   box-shadow: 6px 6px 0px rgba(0, 0, 0, 0.5);
   gap: 16px;
 }
+
 .card-image {
   width: 48px;
   height: 48px;
@@ -49,8 +50,9 @@
   gap: 12px;
   flex-wrap: wrap;
 }
+
 .card:hover {
-  transform: scale(1.05);
+  transform: scale(1.005);
   background-color: rgba(255, 255, 255, 0.096);
   transition: transform 0.3s;
 }
