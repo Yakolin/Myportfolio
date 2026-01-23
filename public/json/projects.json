@@ -1,0 +1,25 @@
+[
+    {
+        "header": "Counter Strike 2D",
+        "imgSrc": "../img/projects/cs2D.png",
+        "url": "https://github.com/Yakolin/CS2D-grupo-13"
+    },
+    {
+        "header": "Animal Drift",
+        "imgSrc": "../img/projects/animalDrift.png",
+        "url": "https://yakolin.itch.io/animaldrift"
+    },
+    {
+        "header": "Juego de Robots",
+        "url": "https://github.com/Yakolin/Juego-de-Robots"
+    },
+    {
+        "header": "Juego de cartas Pokemon",
+        "imgSrc": "../img/projects/pokemon.jpeg",
+        "url": "https://github.com/Yakolin/Juego-de-Cartas-Pokemon?tab=readme-ov-file"
+    },
+    {
+        "header": "Comedor Universitario"
+    }
+
+]

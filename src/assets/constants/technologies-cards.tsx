@@ -10,7 +10,6 @@ export const technologiesCards = [
         title: "React JS",
         content: "Facultad de Ingenieria, UBA",
         imgSrc: reactJsIcon,
-        animate: "hover:animate-pulse"
     },
     {
         title: "JavaScript",
@@ -22,24 +21,20 @@ export const technologiesCards = [
         title: "Python",
         content: "Facultad de Ingenieria, UBA",
         imgSrc: pythonIcon,
-        animate: "hover:animate-pulse"
     },
     {
         title: "PostgreSQL",
         content: "Facultad de Ingenieria, UBA",
         imgSrc: postGre,        
-        animate: "hover:animate-pulse"
     },
     {
         title: "Java",
         content: "Facultad de Ingenieria, UBA",
         imgSrc: "",
-        animate: "hover:animate-pulse"
     },
     {
         title: "C/C++",
         content: "Facultad de Ingenieria, UBA",
         imgSrc: cPlusPlus,
-        animate: "hover:animate-pulse"
     }
 ]

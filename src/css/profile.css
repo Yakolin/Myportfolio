@@ -6,12 +6,13 @@
     width: 40%;
     height: auto;
     padding: 16px;
+    transition: transform 1s;
 }
 
 .profile-specs:hover {
     background: rgba(255, 238, 0, 0.103);
     transform: scale(1.005);
-    transition: 1s;
+    transition: background 1s, transform 1s;
 }
 
 .profile-bio {
@@ -27,12 +28,13 @@
     font-size: 0.8rem;
     margin-bottom: 8px;
     padding: 16px;
+    transition: transform 1s;
 }
 
 .profile-bio:hover {
-    background: rgba(255, 238, 0, 0.103);
-    transform: scale(1.005);
-    transition: 2s;
+    background: rgba(0, 0, 0, 0.705);
+    transform: scale(1.05);
+    transition: background 1s, transform 1s;
 }
 
 .profile {

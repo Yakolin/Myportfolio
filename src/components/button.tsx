@@ -1,16 +1,17 @@
 type ButtonProps = {
-    content: string;
+    style:string
+    content?: string;
     imgSrc?: string;
     onClick?: () => void;
-    animate?: string;
+    buttonBody?: string;
 }
 
-export default function Button({content ,imgSrc, onClick ,animate}: ButtonProps) {
+export default function Button({style,content ,imgSrc, buttonBody, onClick}: ButtonProps) {
 
   return (
-        <div className={`button ${animate ?? ''}`} onClick={onClick ? onClick : undefined}>
+        <div className={style} onClick={onClick ? onClick : undefined}>
             {imgSrc && <img src={imgSrc ? imgSrc : ''} className="button-image" />}
-            <div className="button-body">
+            <div className={buttonBody ?? ""}>
                 {content}
             </div>
         </div>
