@@ -2,8 +2,6 @@ import { useEffect, useState } from "react";
 import Carousel from "./ui/carousel";
 import ProjectCard , {type ProjectCardProps} from "./project-card.tsx";
 const projectRoute = "/json/projects.json";
-import React from "react";
-
 
 export default function Projects() {
     const [projects, setProjects] = useState<Array<ProjectCardProps>>([]);

@@ -1,4 +1,3 @@
-import { useState } from "react";
 export type ProjectCardProps = {
     header?: string;
     imgSrc?: string;

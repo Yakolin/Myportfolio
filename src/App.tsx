@@ -1,4 +1,3 @@
-import React from "react"
 import "/src/css/globals.css"
 import "/src/css/technologies.css"
 import "/src/css/button.css"
