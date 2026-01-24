@@ -25,7 +25,7 @@ export default function Profile() {
                     Actualmente estoy tratando de mejorar como profesional y busco oportunidades para crecer y adquirir experiencia en los campos que mas me interesan.
                     <br></br>
                     <br></br>
-                    Me considero una persona proactiva, en busca de recer, ganas de aprender y enfrentar nuevos desafios con equipos de trabajo.
+                    Me considero una persona proactiva, con ganas de aprender constantemente y enfrentar nuevos desafios con equipos de trabajo.
                     <br></br>
                 </p>
             </div>
