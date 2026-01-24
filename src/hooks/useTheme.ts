@@ -4,6 +4,7 @@ export function useTheme() {
     (localStorage.getItem("theme"))
   );
   useEffect(() => {
+    if (theme == null) return;
     const root = document.documentElement;
     root.setAttribute("data-theme", theme);
     localStorage.setItem("theme", theme);

@@ -2,7 +2,6 @@
 export type CardProps = {
     title?: string;
     content?: string;
-    orientation?: "row" | "column";
     imgSrc?: string;
     width?: string;
     height?: string;
