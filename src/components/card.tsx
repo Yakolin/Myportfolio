@@ -4,7 +4,6 @@ export type CardProps = {
     content?: string;
     orientation?: "row" | "column";
     imgSrc?: string;
-    animate?: string;
     width?: string;
     height?: string;
 };
@@ -13,13 +12,12 @@ export default function Card({
     title,
     content,
     imgSrc,
-    animate,
     width = "auto",
     height = "auto",
 }: CardProps) {
     return (
         <div
-            className={`card row ${animate ?? ""}`}
+            className={`card row`}
             style={{ width, height }}
         >
             {imgSrc && <img src={imgSrc} alt={title} className="card-image" />}

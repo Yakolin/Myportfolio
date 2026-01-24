@@ -14,7 +14,7 @@ export const technologiesCards = [
     },
     {
         title: "C/C++",
-        content: "FIUBA",
+        content: "FIUBA dsadsadsadsasasa",
         imgSrc: cPlusPlus,
     }, 
     {

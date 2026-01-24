@@ -1,5 +1,5 @@
 :root {
-  --bg: linear-gradient(80deg,rgb(0, 0, 0) 60%, rgba(255, 0, 0, 0.075) 2%, rgb(172, 112, 0) 5%);
+  --bg: linear-gradient(80deg,rgb(0, 0, 0) 50%, rgb(172, 112, 0) 60%, rgb(172, 112, 0) 50%);
   --fg: white;
   --fgi: black;
   --dg: red;

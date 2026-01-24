@@ -10,6 +10,7 @@
   gap: 12px;
   min-width: 200px;
   color: white;
+  transition: transform 0.5s;
 }
 
 .card-image {
@@ -37,6 +38,7 @@
   opacity: 0.9;
   color: var(--dg);
   white-space: pre-line;
+  flex:1;
 }
 
 .card-panel {
@@ -49,6 +51,6 @@
 }
 
 .card:hover {
-  transform: scale(1.005);
-  transition: transform 0.3s;
+  transform: scale(1.05);
+  transition: transform 0.5s;
 }
