@@ -1,5 +1,4 @@
 import reactJsIcon from "../icons/react.svg";
-import javaSIcon from "../icons/javascript.svg";
 import postGre from "../icons/postgresql.svg";
 import pythonIcon from "../icons/python.svg";
 import cPlusPlus from "../icons/c-plus-plus.svg";
@@ -14,9 +13,9 @@ export const technologiesCards = [
     },
     {
         title: "C/C++",
-        content: "FIUBA dsadsadsadsasasa",
+        content: "FIUBA",
         imgSrc: cPlusPlus,
-    }, 
+    },
     {
         title: "Unity/C#",
         content: "Cursos",
@@ -28,11 +27,6 @@ export const technologiesCards = [
         imgSrc: reactJsIcon,
     },
     {
-        title: "JavaScript",
-        content: "Independiente",
-        imgSrc: javaSIcon,
-    },
-    {
         title: "Python",
         content: "FIUBA",
         imgSrc: pythonIcon,
@@ -40,6 +34,6 @@ export const technologiesCards = [
     {
         title: "PostgreSQL",
         content: "FIUBA",
-        imgSrc: postGre,        
+        imgSrc: postGre,
     }
 ]
