@@ -3,38 +3,43 @@ import javaSIcon from "../icons/javascript.svg";
 import postGre from "../icons/postgresql.svg";
 import pythonIcon from "../icons/python.svg";
 import cPlusPlus from "../icons/c-plus-plus.svg";
-
+import javaIcon from "../icons/leaf.svg";
+import unityIcon from "../icons/box.svg";
 
 export const technologiesCards = [
     {
+        title: "Java / Spring",
+        content: "FIUBA",
+        imgSrc: javaIcon,
+    },
+    {
+        title: "C/C++",
+        content: "FIUBA",
+        imgSrc: cPlusPlus,
+    }, 
+    {
+        title: "Unity/C#",
+        content: "Cursos",
+        imgSrc: unityIcon,
+    },
+    {
         title: "React JS",
-        content: "Facultad de Ingenieria, UBA",
+        content: "Independiente",
         imgSrc: reactJsIcon,
     },
     {
         title: "JavaScript",
-        content: "Facultad de Ingenieria, UBA",
+        content: "Independiente",
         imgSrc: javaSIcon,
-        animate: "hover:animate-in fade-in slide-in-from-left"
     },
     {
         title: "Python",
-        content: "Facultad de Ingenieria, UBA",
+        content: "FIUBA",
         imgSrc: pythonIcon,
     },
     {
         title: "PostgreSQL",
-        content: "Facultad de Ingenieria, UBA",
+        content: "FIUBA",
         imgSrc: postGre,        
-    },
-    {
-        title: "Java",
-        content: "Facultad de Ingenieria, UBA",
-        imgSrc: "",
-    },
-    {
-        title: "C/C++",
-        content: "Facultad de Ingenieria, UBA",
-        imgSrc: cPlusPlus,
     }
 ]

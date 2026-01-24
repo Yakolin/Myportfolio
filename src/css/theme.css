@@ -1,0 +1,40 @@
+:root {
+  --bg: linear-gradient(80deg,rgb(0, 0, 0) 60%, rgba(255, 0, 0, 0.075) 2%, rgb(172, 112, 0) 5%);
+  --fg: white;
+  --fgi: black;
+  --dg: red;
+  --fbg: rgba(255, 238, 0, 0.103);
+  --border-color:rgb(255, 196, 0);
+  --border-color2: rgb(172, 83, 0);
+  --bs: rgba(0, 0, 0, 0.5);
+  --back-opacity: rgba(0, 0, 0, 0.555);
+    --sbg: rgb(0, 0, 0);
+--lbg: rgba(0, 0, 0, 0.705);
+--button-background:     radial-gradient(circle, rgba(0, 0, 0, 0.171) 2px, transparent 1px),
+    linear-gradient(180deg, #ffffff, #ffffffd5);
+    --bs-color1: rgb(255, 196, 0);
+    --ibutton-txt: black;
+    --blur-color1:  rgba(255, 0, 242, 0.356);
+    --blur-color2: rgba(255, 0, 200, 0.5);
+}
+
+:root[data-theme="light"] {
+  --bg: linear-gradient(80deg,rgb(255, 255, 255) 50%, rgba(0, 247, 255, 0.76) 60%, rgb(0, 255, 255) 50%);
+  --fg: rgb(0, 0, 0);
+    --fgi: white;
+  --border-color: rgb(0, 0, 0);
+  --border-color2: rgb(0, 132, 255);
+  --bs: rgba(0, 0, 0, 0.5);
+  --dg: rgb(0, 238, 255);
+    --fbg: rgba(0, 0, 0, 0.568);
+    --sbg: rgb(255, 255, 255);
+    --lbg: rgb(255, 255, 255);
+  --button-background: radial-gradient(circle, rgba(0, 0, 0, 0.363) 2px, transparent 1px),
+    linear-gradient(180deg, #ffffff, #ffffffd5);
+    --bs-color1: rgb(0, 119, 255);
+    --back-opacity: rgba(0, 0, 0, 0.767);
+    --ibutton-txt: black;
+    --blur-color1:  rgba(4, 88, 36, 0.897);
+    --blur-color2: rgba(85, 196, 33, 0.5);
+
+}

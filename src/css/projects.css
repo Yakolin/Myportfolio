@@ -10,11 +10,10 @@
 
 .project-card {
   display: flex;
-  background: rgba(0, 0, 0, 0.445);
+  background: var(--lbg);
   flex-direction: column;
   border-radius: 8px;
   overflow: hidden;
-  color: #fff;
   transition: transform 1s, opacity .3s ease, box-shadow 1s ease;
   cursor: pointer;
   width: 100%;
@@ -23,7 +22,7 @@
 
 .project-card:hover {
   transition: transform .3s ease, box-shadow 1s ease;
-  box-shadow: 1px 4px 12px rgba(255, 0, 200, 0.356);
+  box-shadow: 2px 4px 10px var(--blur-color1);
   box-sizing: border-box;
 }
 
@@ -51,7 +50,7 @@
 }
 
 .project-card:hover .header{
-  text-shadow: 5px 5px 4px rgba(255, 0, 200, 0.5);
+  text-shadow: 5px 5px 4px var(--blur-color2);
   transform: scale(1.05) translateY(-10%);
   transition: text-shadow 1s ease, transform 2s ease;
 }

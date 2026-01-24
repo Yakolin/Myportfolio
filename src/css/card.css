@@ -1,14 +1,15 @@
 .card {
-  background: rgba(0, 0, 0, 0.555) ;
-  border: #ffd0004d 4px dashed;
+  background: var(--back-opacity);
+  border: var(--border-color2) 4px dashed;
   display: flex;
   flex-direction: row;
   justify-content: left;
   align-items: center;
-  border-radius: 25px;
-  color: white;
-  box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  box-shadow: 6px 6px 12px var(--bs);
   gap: 12px;
+  min-width: 200px;
+  color: white;
 }
 
 .card-image {
@@ -19,7 +20,6 @@
 }
 
 .card-body {
-
   display: flex;
   justify-content: left;
   flex-direction: column;
@@ -28,16 +28,14 @@
 }
 
 .card-title {
-  color: white;
   font-size: 0.7rem;
   margin: 0;
-  font-weight: bold;
 }
 
 .card-description {
   font-size: 0.5rem;
   opacity: 0.9;
-  color: #ff0000e3;
+  color: var(--dg);
   white-space: pre-line;
 }
 
@@ -46,7 +44,7 @@
   justify-content: center;
   display: flex;
   flex-direction: row;
-  gap: 12px;
+  gap: 25px;
   flex-wrap: wrap;
 }
 

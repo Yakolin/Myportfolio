@@ -7,6 +7,7 @@ import "/src/css/projects.css"
 import "/src/css/carousel.css"
 import "/src/css/graph.css"
 import './App.css'
+import "/src/css/theme.css"
 import MainPage from "./pages/main-page"
 function App() {
   return (

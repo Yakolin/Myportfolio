@@ -1,8 +1,7 @@
 .profile-specs {
-    background: black;
-    border: 5px solid rgb(255, 196, 0);
-    box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.192);
-    ;
+    background: var(--sbg);
+    border: 5px solid var(--border-color);
+    box-shadow: 3px 3px 0px var(--bs);
     width: 40%;
     height: auto;
     padding: 16px;
@@ -10,20 +9,19 @@
 }
 
 .profile-specs:hover {
-    background: rgba(255, 238, 0, 0.103);
+    background: var(--fbg);
     transform: scale(1.005);
     transition: background 1s, transform 1s;
 }
 
 .profile-bio {
-    background: linear-gradient(90degrees, #006eff, #00000038);
-    border: 2px solid white;
-    outline: 2px dashed rgb(255, 230, 0);
+    background: transparent;
+    border: 2px solid var(--border-color2);
+    outline: 2px dashed var(--border-color);
     outline-offset: 4px;
     font-size: 1rem;
     width: 80%;
     height: auto;
-    color: white;
     align-self: center;
     font-size: 0.8rem;
     margin-bottom: 8px;
@@ -32,7 +30,7 @@
 }
 
 .profile-bio:hover {
-    background: rgba(0, 0, 0, 0.705);
+    background: var(--lbg);
     transform: scale(1.05);
     transition: background 1s, transform 1s;
 }

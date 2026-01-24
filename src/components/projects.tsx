@@ -15,7 +15,7 @@ export default function Projects() {
     }, [])
     return (
         <div className="projects">
-        <h2 style={{ textShadow: "rgb(255, 0, 217) 1px 0 10px" }}> Mis proyectos mas importantes </h2>
+        <h2 style={{ textShadow: "var(--border-color2) 1px 0 10px" }}> Mis proyectos mas importantes </h2>
             <Carousel orientation="row" separation={80} scale={0.8} panelMinHeight={325} panelMinWidth={500}> 
                 {projects.map((project, index) => (
                     <ProjectCard 
