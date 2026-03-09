@@ -17,5 +17,10 @@
         "header": "Juego de cartas Pokemon",
         "imgSrc": "../img/projects/pokemon.jpeg",
         "url": "https://github.com/Yakolin/Juego-de-Cartas-Pokemon?tab=readme-ov-file"
+    },
+    {
+        "header": "TaTeTi",
+        "imgSrc": "../img/projects/Tateti.jpg",
+        "url": "https://tatetigame-delta.vercel.app"
     }
 ]
